@@ -25,7 +25,6 @@ def find_the_cheese(cheeses) # code an argument here
   cheese_found = cheeses.find do |cheese|
     cheese_types.include?(cheese)
   end
-  cheese_found ? cheese_found : nil 
 end
 
 # #find_all or select method is similar to javascript filter method
